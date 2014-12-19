@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="svchost win">
+</Property><Property Name="Solution File" Value="D:\WWWWW-WORK\xx - assets\Keyboardhook\installhook\svchost win.sln">
+</Property><Property Name="User Options File" Value="D:\WWWWW-WORK\xx - assets\Keyboardhook\installhook\svchost win.suo">
+</Property><Property Name="Date" Value="Tuesday, July 29, 2014">
+</Property><Property Name="Time" Value="22:41 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="svchost win.sln" Description="File successfully backed up as D:\WWWWW-WORK\xx - assets\Keyboardhook\installhook\svchost win.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="svchost win.suo" Description="File successfully backed up as D:\WWWWW-WORK\xx - assets\Keyboardhook\installhook\svchost win.suo.old">
+</Event><Event ErrorLevel="0" Project="installhook" Source="installhook.vcproj" Description="Converting project file 'D:\WWWWW-WORK\xx - assets\Keyboardhook\installhook\installhook.vcproj'.">
+</Event><Event ErrorLevel="1" Project="installhook" Source="installhook.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="installhook" Source="installhook.vcproj" Description="MSB8012: $(TargetPath) ('D:\WWWWW-WORK\xx - assets\Keyboardhook\installhook\.\Release\svchost.exe') does not match the Linker's OutputFile property value '.\Release/svchost.exe' ('D:\WWWWW-WORK\xx - assets\Keyboardhook\installhook\Release/svchost.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="installhook" Source="installhook.vcproj" Description="MSB8012: $(TargetPath) ('D:\WWWWW-WORK\xx - assets\Keyboardhook\installhook\.\Debug\svchost.exe') does not match the Linker's OutputFile property value '.\Debug/svchost.exe' ('D:\WWWWW-WORK\xx - assets\Keyboardhook\installhook\Debug/svchost.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="installhook" Source="installhook.vcproj" Description="Done converting to new project file 'D:\WWWWW-WORK\xx - assets\Keyboardhook\installhook\installhook.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="installhook" Source="installhook.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="hodll" Source="..\hodll\hodll.vcproj" Description="Converting project file 'D:\WWWWW-WORK\xx - assets\Keyboardhook\hodll\hodll.vcproj'.">
+</Event><Event ErrorLevel="1" Project="hodll" Source="..\hodll\hodll.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="hodll" Source="..\hodll\hodll.vcproj" Description="MSB8012: $(TargetPath) ('D:\WWWWW-WORK\xx - assets\Keyboardhook\hodll\.\Release\win32sok.dll') does not match the Linker's OutputFile property value '.\../installhook/Release/win32sok.dll' ('D:\WWWWW-WORK\xx - assets\Keyboardhook\installhook\../installhook/Release/win32sok.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="hodll" Source="..\hodll\hodll.vcproj" Description="MSB8012: $(TargetPath) ('D:\WWWWW-WORK\xx - assets\Keyboardhook\hodll\.\Debug\win32sok.dll') does not match the Linker's OutputFile property value '.\../installhook/Debug/win32sok.dll' ('D:\WWWWW-WORK\xx - assets\Keyboardhook\installhook\../installhook/Debug/win32sok.dll') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="hodll" Source="..\hodll\hodll.vcproj" Description="Done converting to new project file 'D:\WWWWW-WORK\xx - assets\Keyboardhook\hodll\hodll.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="hodll" Source="..\hodll\hodll.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="svchost win.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="svchost win.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "svchost", "installhook.vcproj", "{AA227E6B-5627-4E1F-A97D-CA8481E9A20B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "win32sok", "..\hodll\hodll.vcproj", "{F6003308-0EFB-49FE-82D9-6DF9B0D20AF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA227E6B-5627-4E1F-A97D-CA8481E9A20B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AA227E6B-5627-4E1F-A97D-CA8481E9A20B}.Debug|Win32.Build.0 = Debug|Win32
+		{AA227E6B-5627-4E1F-A97D-CA8481E9A20B}.Release|Win32.ActiveCfg = Release|Win32
+		{AA227E6B-5627-4E1F-A97D-CA8481E9A20B}.Release|Win32.Build.0 = Release|Win32
+		{F6003308-0EFB-49FE-82D9-6DF9B0D20AF7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6003308-0EFB-49FE-82D9-6DF9B0D20AF7}.Debug|Win32.Build.0 = Debug|Win32
+		{F6003308-0EFB-49FE-82D9-6DF9B0D20AF7}.Release|Win32.ActiveCfg = Release|Win32
+		{F6003308-0EFB-49FE-82D9-6DF9B0D20AF7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
