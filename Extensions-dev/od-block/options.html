@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>SiteBlock Extension Options</title>
+		<meta charset='utf-8'>
+        <script type="text/javascript" src="siteblock.js"></script>
+        <script type="text/javascript" src="options.js"></script>
+
+    </head>
+
+    <body>
+	<div id="status"></div>
+	<form>
+	Sites to be blocked except for IP(s) in next session:<br />
+	<textarea spellcheck="false" id="rules" cols="60" rows="5"></textarea><br />
+	Allowed IP(s):<br />	
+	<textarea spellcheck="false" id="ips" cols="60" rows="5"></textarea>
+	<br />API:<br />	
+	<input type="text" id="api" value="" placeholder="http://ip.jsontest.com"/>
+	<br /><input id="submit" type="button" value="Save Options" />
+        </form>
+
+<h2>Help</h2>
+<div style="display:none">
+<p>접근제한하려는 도메인을 행단위로 입력하십시오 (정규표현식이 입력가능합니다). 실례:</p>
+<pre>
+cnn.com
+nytimes.com
+google.com/news
++stackoverflow.com
++msdn.microsoft.com
+</pre>
+
+<p>사용자 IP 주소를 행단위로 입력하십시오. 실례:</p>
+<pre>
+127.0.0.1
+10.5.5.58
+</pre>
+
+
+<p>:</p>
+</div>
+<em>
+Created by <a style="color:blue">sasya8080@gmail.com</a>
+
+</em>
+
+</body>
+</html>

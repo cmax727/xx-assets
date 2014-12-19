@@ -1,0 +1,12 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "description": "Block sites to discourage procrastination",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDeeLUOxSoNO8YJc9c0yHILczg9ZU6V29ay1KfO7yxX1wdtizlV32HGMl2Ah6OlNwdU1yEETzw57oAN18B0V98qdEW15l4qHuAni2nEv0bRckoDz+mKJWlgAlq74+BNUXQdA/gImTDQGPtR2fOwuDUZGVY6xxnLXNfqMww19YWjQIDAQAB",
+   "manifest_version": 2,
+   "name": "SiteBlock",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "webRequest", "<all_urls>", "webRequestBlocking"],
+   "version": "0.1.1"
+}
