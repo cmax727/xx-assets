@@ -1,0 +1,20 @@
+<SCRIPT>
+    function getFonts()
+    {
+        var nFontLen = dlgHelper.fonts.count;
+        var rgFonts = new Array();
+        for ( var i = 1; i < nFontLen + 1; i++ )
+            rgFonts[i] = dlgHelper.fonts(i); 
+
+        rgFonts.sort();
+        for ( var j = 0; j < nFontLen; j++ ){
+//            document.write( "<span style='font-family:" + rgFonts[j] + "'>" + rgFonts[j] + "</span><BR \\>" );
+            document.write( "<span style='font-family:" + rgFonts[j] + "'>E W F & N ::" + rgFonts[j] + "</span><BR \\>" );
+//            document.write( "<span style='font-family:" + rgFonts[j] + "'>Elegant Water Features & Natured</span><BR \\>" );
+			}
+    }
+</SCRIPT>
+
+<BODY onload="getFonts()" style="font-size:20px;">
+<OBJECT id=dlgHelper CLASSID="clsid:3050f819-98b5-11cf-bb82-00aa00bdce0b" width="0px" height="0px">
+</OBJECT>
