@@ -1,0 +1,5 @@
+E:\backup\Development Env\Tools-Util\MouseKeyboardLib2008\MouseKeyboardLibrary\MouseKeyboardLibrary\bin\x86\Release\MouseKeyboardLibrary.dll
+E:\backup\Development Env\Tools-Util\MouseKeyboardLib2008\MouseKeyboardLibrary\MouseKeyboardLibrary\bin\x86\Release\MouseKeyboardLibrary.pdb
+E:\backup\Development Env\Tools-Util\MouseKeyboardLib2008\MouseKeyboardLibrary\MouseKeyboardLibrary\obj\x86\Release\ResolveAssemblyReference.cache
+E:\backup\Development Env\Tools-Util\MouseKeyboardLib2008\MouseKeyboardLibrary\MouseKeyboardLibrary\obj\x86\Release\MouseKeyboardLibrary.dll
+E:\backup\Development Env\Tools-Util\MouseKeyboardLib2008\MouseKeyboardLibrary\MouseKeyboardLibrary\obj\x86\Release\MouseKeyboardLibrary.pdb

@@ -1,0 +1,11 @@
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\bin\Debug\FiddleMonitor.exe.config
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\bin\Debug\FiddleMonitor.exe
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\bin\Debug\FiddleMonitor.pdb
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\bin\Debug\saf_kmlib.dll
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\bin\Debug\saf_kmlib.pdb
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\Debug\ResolveAssemblyReference.cache
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\Debug\FiddleMonitor.MacroForm.resources
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\Debug\FiddleMonitor.Properties.Resources.resources
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\Debug\FiddleMonitor.exe
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\Debug\FiddleMonitor.pdb
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\Debug\Fiddle Monitor.csproj.GenerateResource.Cache

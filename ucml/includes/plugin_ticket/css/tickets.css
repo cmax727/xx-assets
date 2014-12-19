@@ -1,0 +1,82 @@
+
+#ticket_container{
+    padding: 5px 10px;
+    overflow-x: hidden;
+    border-left:1px solid #DFDFDF;
+    border-right:1px solid #DFDFDF;
+    border-bottom:1px solid #DFDFDF;
+    margin:-1px 0 10px 0;
+    background: #FFF;
+    font-size: 11px;
+}
+.ticket_message{
+    margin: 10px 0;
+    border: 1px solid #DFDFDF;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+}
+.ticket_message_title{
+    background:#EFEFEF;
+    padding: 5px;
+    text-align: left;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+.ticket_message_title span{
+    display:inline-block;
+}
+.ticket_message_title_full{
+    display:none;
+}
+.ticket_message_text{
+    padding: 5px;
+}
+#ticket_reply_button{
+    margin-top:10px;
+}
+.ticket_reply{
+    margin-top: 5px;
+    text-align: center;
+}
+.ticket_reply textarea{
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 1px;
+    margin: 0;
+    text-align: left;
+    width:90%;
+}
+.ticket_message_creator{
+    margin-right:20px;
+    border: 1px solid #AAA;
+}
+.ticket_message_admin{
+    margin-left:20px;
+}
+.ticket_message_admin .ticket_message_title{
+    text-align: right;
+}
+
+
+.public_header{
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+}
+.public_welcome{
+    text-align: center;
+}
+
+.ticket_message_hider{
+    height:30px;
+    overflow: hidden;
+    border-bottom: 1px dashed #CCC;
+}
+.ticket_message_hider_show{
+    height:auto;
+    overflow: visible;
+}

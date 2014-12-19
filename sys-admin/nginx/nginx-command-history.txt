@@ -1,0 +1,143 @@
+    1  help
+    2  ls -l
+    3  vi /etc
+    4  cd /etc
+    5  cd yum
+    6  ls
+    7  cd ~
+    8  ls
+    9  yum install nginx
+   10  cd /etc
+   11  cd yum
+   12  ls
+   13  ls -l
+   14  vi protected.d/
+   15  cd protected.d/
+   16  ls
+   17  cd ..
+   18  ls
+   19  cd ..
+   20  dir
+   21  dir *repo*
+   22  cd yum.repos.d/
+   23  ls
+   24  vi nginx.repo
+   25  yum install nginx
+   26  yum install nodejs
+   27  yum install node
+   28  su -c 'yum --enablerepo=epel-testing install npm'
+   29  yum --enablerepo=epel-testing install npm
+   30  rpm -ivh epel-release-6-5.noarch.rpm 
+   31  rpm -ivh epel-release-6-6.noarch.rpm 
+   32  rpm -ivh epel-release-6-6.noarch 
+   33  rpm -ivh epel-release-6-8.noarch.rpm 
+   34  rpm -ivh epel-release-6-8.noarch.rpm
+   35  pwd
+   36  cd ~
+   37  ls
+   38  wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+   39  wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+   40  sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm
+   41  yum install nodejs
+   42   iptables -A INPUT -p tcp -m tcp --sport 80 -j ACCEPT iptables -A OUTPUT -p tcp -m tcp --dport 80 -j ACCEPT 
+   43  cd /etc
+   44  ls
+   45  ls iptables
+   46  vi /etc/sysconfig/iptables
+   47  services iptables restart
+   48  service iptables restart
+   49  vi /etc/sysconfig/iptables
+   50  service iptables restart
+   51  service nginx restart
+   52  cd /usr/share/nginx
+   53  ls
+   54  mkdir vetting
+   55  mkdir buying
+   56  cd vetting
+   57  ls
+   58  pwd
+   59  cd /etc/nginx/conf.d/
+   60  ls
+   61  del *.conf
+   62  rm *.conf
+   63  vi vetting.conf
+   64  ls
+   65  cp vetting.conf  buying
+   66  mv buying buying.conf
+   67  vi vetting.conf 
+   68  vi buying.conf 
+   69  service nginx restart
+   70  cd /usr/share/nginx/vetting
+   71  ls -l
+   72  vi index.htm
+   73  ls
+   74  tar -xvf archive.tgz 
+   75  rm archive.tgz 
+   76  ls
+   77  vi index.htm 
+   78  cp index.htm ../buying/
+   79  cd ../buying
+   80  vi index.htm 
+   81  :Q
+   82  cp ../vetting/index.htm .
+   83  vi index.htm 
+   84  ls
+   85  cp index.htm ..
+   86  tar -xvf archive.tgz 
+   87  rm archive.tgz 
+   88  cp ../index.htm  .
+   89  cd ..
+   90  rm index.htm 
+   91  ls
+   92  mkdir browsercheck
+   93  cd /etc/nginx
+   94  cd conf.d/
+   95  ls
+   96  cp vetting.conf browsercheck.conf
+   97  vi browsercheck.conf 
+   98  service nginx restart
+   99  cd /usr/share/nginx/
+  100  ls
+  101  cd browsercheck/
+  102  cp -?
+  103  cp --help
+  104  cp ../vetting -r
+  105  cp -r ../vetting 
+  106  cp -r ../vetting .
+  107  ls
+  108  cd vetting/
+  109  ls
+  110  mv *.* ..
+  111  ls
+  112  cd ..
+  113  ls
+  114  cd vetting/
+  115  mv -r assets/ .. 
+  116  mv -r cw vetting ../ 
+  117  mv vetting ..
+  118  ls
+  119  mv assets/ ..
+  120  ls
+  121  cd ..
+  122  rm vetting/
+  123  rm -r vetting/
+  124  ls
+  125  cd assets/
+  126  ls
+  127  cd ..
+  128  vi index.htm 
+  129  nano id_rsa.pub
+  130  cd ~/.ssh
+  131  cd ~/
+  132  mkdir .ssh
+  133  cd .ssh/
+  134  ssh-keygen -t rsa -C "root@browsercheck.com"
+  135  pbcopy < ~/.ssh/id_rsa.pub
+  136  mc
+  137  wget
+  138  wget "http://uriminzokkiri.com/php_tmp/download.php?categ1=12&no=14727"
+  139  cat download.php\?categ1\=12\&no\=14727 
+  140  wget "http://uriminzokkiri.com/php_tmp/download.php?categ1=12&no=14727"
+  141  ls
+  142  history
+  143  history > nginx

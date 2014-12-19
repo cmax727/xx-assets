@@ -1,0 +1,1 @@
+Copy your custom translation file here so it doesn't get overwritten by automatic upgrades.

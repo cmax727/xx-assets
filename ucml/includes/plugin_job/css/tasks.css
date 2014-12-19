@@ -1,0 +1,51 @@
+
+.task_column{
+    
+}
+
+.task_percentage{
+    position: absolute;
+    height:18px;
+    z-index: 4;
+}
+.task_percentage_label{
+    position: absolute;
+    z-index: 3;
+    color: #CCC;
+    text-align: right;
+}
+.task_percentage_bar{
+    z-index: 2;
+    position: absolute;
+    background-color: #EFEFEF;
+    height:18px;
+}
+.task_description{
+    position: absolute;
+    margin-left: 3px;
+    z-index: 4;
+}
+.task_edit{
+    background: #c3d4ff;
+}
+
+.job_task_staff_list{
+    width:60px;
+}
+
+.edit_task_description{
+    width:90%;
+}
+.edit_task_long_description{
+    width:90%;
+    height: 40px;
+}
+.task_long_description{
+    display:none;
+}
+.task_toggle_long_description{
+    padding: 0 6px;
+}
+.edit_task_order{
+    width:86%;
+}

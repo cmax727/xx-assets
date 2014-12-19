@@ -1,0 +1,74 @@
+if (true)
+{
+	Print "a-11";
+	if ( false)
+	{
+		if (true)
+		{
+			Print "c-11";
+		}
+		else
+		{
+			Print "c-12";
+		}
+		Print "b-1";
+	}
+	// this is remark position
+	else_if (false )
+	{
+		Print "b-2";
+	}
+	else_if (true)
+	{
+		Print "b-3";
+	}
+	else
+	{
+		Print "b-4";
+	}
+	Print "a-12";
+}
+else_if(true)
+{
+	Print "a-21";
+}
+else
+{
+	Print "a-22";
+}
+Print "hello World"
+while ( true)
+{
+if ( true)
+{
+Print w-31
+ if (true)
+ {
+	 clear 45
+	 break
+ }
+ else
+ {
+	Print w-33
+ }
+}
+Print "hellosdf";
+}
+switch (abc)
+{
+	case 0:
+		if ( true)
+		{
+		Print switch_a;
+		}
+		else
+		{
+		Print switch_b;
+		}
+		Print switch_c;
+		break;
+		Print switch_d;
+	case 1:
+		hello world
+	case 3:
+}

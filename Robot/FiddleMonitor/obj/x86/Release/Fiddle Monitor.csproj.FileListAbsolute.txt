@@ -1,0 +1,12 @@
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\bin\x86\Release\FiddleMonitor.exe.config
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\bin\x86\Release\FiddleMonitor.exe
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\bin\x86\Release\FiddleMonitor.pdb
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\bin\x86\Release\saf_kmlib.dll
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\bin\x86\Release\saf_kmlib.pdb
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\x86\Release\ResolveAssemblyReference.cache
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\x86\Release\FiddleMonitor.MacroForm.resources
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\x86\Release\FiddleMonitor.Properties.Resources.resources
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\x86\Release\ResGen.read.1.tlog
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\x86\Release\ResGen.write.1.tlog
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\x86\Release\FiddleMonitor.exe
+E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\x86\Release\FiddleMonitor.pdb
