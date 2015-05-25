@@ -10,3 +10,15 @@ E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\x86\Debug\Res
 E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\x86\Debug\ResGen.write.1.tlog
 E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\x86\Debug\FiddleMonitor.exe
 E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\x86\Debug\FiddleMonitor.pdb
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\bin\x86\Debug\FiddleMonitor.exe.config
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Debug\FiddleMonitor.exe
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Debug\FiddleMonitor.pdb
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\bin\x86\Debug\FiddleMonitor.exe
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\bin\x86\Debug\FiddleMonitor.pdb
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\bin\x86\Debug\saf_kmlib.dll
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\bin\x86\Debug\saf_kmlib.pdb
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Debug\FiddleMonitor.MacroForm.resources
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Debug\FiddleMonitor.Properties.Resources.resources
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Debug\ResGen.read.1.tlog
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Debug\ResGen.write.1.tlog

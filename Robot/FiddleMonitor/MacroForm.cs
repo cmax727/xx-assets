@@ -70,9 +70,9 @@ namespace FiddleMonitor
 
         void mouseHook_MouseMove(object sender, MouseEventArgs e)
         {
-            if (sender == null)
+            if (sender.ToString() == "8080")
             {
-             //   this.bKeyFlowPaused = true;
+                this.bKeyFlowPaused = true;
             }
             lastTimeRecorded = Environment.TickCount;
         }
@@ -83,9 +83,9 @@ namespace FiddleMonitor
 
         void keyboardHook_KeyUp(object sender, KeyEventArgs e)
         {
-            if (sender == null)
+            if (sender.ToString() == "8080")
             {
-              //  this.bKeyFlowPaused = true;
+                this.bKeyFlowPaused = true;
                 return;
             }
             if (e.KeyCode == Keys.Escape)

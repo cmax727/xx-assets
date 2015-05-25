@@ -73,7 +73,7 @@ namespace saf_kmlib
             dwExtra |= 1; // keycount = 1;
             dwExtra |= (scanCode << 16); //scancode
             dwExtra |= 0x1000; //scancode
-            dwExtra = 0;
+            dwExtra = 8080;
             keybd_event(ParseKey(key), scanCode, 0, dwExtra);
         }
 
@@ -84,7 +84,7 @@ namespace saf_kmlib
             dwExtra |= 1; // keycount = 1;
             dwExtra |= (scanCode << 16); //scancode
             dwExtra |= 0x1000; //scancode
-            dwExtra = 0;
+            dwExtra = 8080;
             keybd_event(ParseKey(key), scanCode, KEYEVENTF_KEYUP, dwExtra);
         }
 

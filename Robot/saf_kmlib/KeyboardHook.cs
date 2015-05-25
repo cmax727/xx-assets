@@ -46,18 +46,7 @@ namespace saf_kmlib
                     (KeyboardHookStruct)Marshal.PtrToStructure(lParam, typeof(KeyboardHookStruct));
                 IntPtr ptr = new IntPtr(lParam.ToInt32() + sizeof(int)*2);
 
-                int tx = 0;//real key
-                if ((keyboardHookStruct.flags & 0x00000010) == 0)
-                {
-                    tx = 0;
-                    KeyUp(null, null);
-                }
-                else
-                { // remove INJECTED flag
-                    Marshal.WriteInt32(ptr, keyboardHookStruct.flags & ~0x00000010);
-                    keyboardHookStruct =
-                        (KeyboardHookStruct)Marshal.PtrToStructure(lParam, typeof(KeyboardHookStruct));
-                }
+                
 
                 if ((keyboardHookStruct.flags & 0x80) == 0) // key down
                 {
@@ -90,6 +79,22 @@ namespace saf_kmlib
                         (shift ? (int)Keys.Shift : 0) |
                         (alt ? (int)Keys.Alt : 0)
                         ));
+
+                if (keyboardHookStruct.dwExtraInfo != 8080)
+                {
+                    KeyUp(8080, e); // pause sign
+                }
+
+                if ((keyboardHookStruct.flags & 0x00000010) == 0)
+                {
+                    //real flag
+                }
+                else
+                { // remove INJECTED flag
+                    Marshal.WriteInt32(ptr, keyboardHookStruct.flags & ~0x00000010);
+                    keyboardHookStruct =
+                        (KeyboardHookStruct)Marshal.PtrToStructure(lParam, typeof(KeyboardHookStruct));
+                }
 
                 // Handle KeyDown and KeyUp events
                 switch (wParam)

@@ -29,7 +29,7 @@ namespace saf_kmlib
         static extern int ShowCursor(bool show);
 
         [DllImport("user32.dll")]
-        static extern void mouse_event(int flags, int dX, int dY, int buttons, int extraInfo);
+        static extern void mouse_event(int flags, int dX, int dY, int dwData, int extraInfo);
 
         const int MOUSEEVENTF_MOVE = 0x1;
         const int MOUSEEVENTF_LEFTDOWN = 0x2;
@@ -103,7 +103,7 @@ namespace saf_kmlib
         /// <param name="button"></param>
         public static void MouseDown(MouseButton button)
         {
-            mouse_event(((int)button), 0, 0, 0, 0);
+            mouse_event(((int)button), 0, 0, 0, 8080);
         }
         
         /// <summary>
@@ -116,7 +116,7 @@ namespace saf_kmlib
             mx = (int)System.Math.Round(mx * 65536.0 / cx/2);
             my = (int)System.Math.Round(my * 65536.0 / cy/2);
                      
-            mouse_event(0x0001 | 0x8000, mx, my, 0, 0);
+            mouse_event(0x0001 | 0x8000, mx, my, 0, 8080);
             
         }
 
@@ -130,7 +130,7 @@ namespace saf_kmlib
 
         public static void MouseDown(MouseEventArgs args)
         {
-            mouse_event(((int)MtoM(args.Button)), args.X, args.Y, 0, 0);
+            mouse_event(((int)MtoM(args.Button)), args.X, args.Y, 0, 8080);
         }
         
         /// <summary>
@@ -172,12 +172,12 @@ namespace saf_kmlib
         /// <param name="button"></param>
         public static void MouseUp(MouseButton button)
         {
-            mouse_event(((int)button) * 2, 0, 0, 0, 0);
+            mouse_event(((int)button) * 2, 0, 0, 0, 8080);
         }
 
         public static void MouseUp(MouseEventArgs args)
         {
-            mouse_event(((int)MtoM(args.Button)) * 2, args.X, args.Y, 0, 0);
+            mouse_event(((int)MtoM(args.Button)) * 2, args.X, args.Y, 0, 8080);
         }
         
         /// <summary>
@@ -267,7 +267,7 @@ namespace saf_kmlib
         public static void MouseWheel(int delta)
         {
 
-            mouse_event(MOUSEEVENTF_WHEEL, 0, 0, delta, 0);
+            mouse_event(MOUSEEVENTF_WHEEL, 0, 0, delta, 8080);
 
         }
 
