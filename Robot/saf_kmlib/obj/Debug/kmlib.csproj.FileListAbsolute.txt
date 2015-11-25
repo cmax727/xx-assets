@@ -3,3 +3,8 @@ E:\backup\Development Env\Tools-Util\Robot\Robot\saf_kmlib\bin\Debug\saf_kmlib.p
 E:\backup\Development Env\Tools-Util\Robot\Robot\saf_kmlib\obj\Debug\ResolveAssemblyReference.cache
 E:\backup\Development Env\Tools-Util\Robot\Robot\saf_kmlib\obj\Debug\saf_kmlib.dll
 E:\backup\Development Env\Tools-Util\Robot\Robot\saf_kmlib\obj\Debug\saf_kmlib.pdb
+D:\WWWWW-WORK\xx-assets3\Robot\saf_kmlib\bin\Debug\saf_kmlib.dll
+D:\WWWWW-WORK\xx-assets3\Robot\saf_kmlib\bin\Debug\saf_kmlib.pdb
+D:\WWWWW-WORK\xx-assets3\Robot\saf_kmlib\obj\Debug\ResolveAssemblyReference.cache
+D:\WWWWW-WORK\xx-assets3\Robot\saf_kmlib\obj\Debug\saf_kmlib.dll
+D:\WWWWW-WORK\xx-assets3\Robot\saf_kmlib\obj\Debug\saf_kmlib.pdb

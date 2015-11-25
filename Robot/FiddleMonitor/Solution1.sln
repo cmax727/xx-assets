@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kmlib", "..\saf_kmlib\kmlib.csproj", "{F419622F-4D82-40A6-B4FB-3FE36579F018}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiddle Monitor", "Fiddle Monitor.csproj", "{81AE332F-E43D-429B-872A-14F5418FEA7F}"

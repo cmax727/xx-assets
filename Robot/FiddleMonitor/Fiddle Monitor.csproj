@@ -96,11 +96,8 @@
   <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MacroForm.cs">
@@ -192,6 +189,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="main3.ico" />
+    <None Include="Resources\bulleye.ico" />
+    <None Include="Resources\win1.ico" />
+    <None Include="Resources\win0.ico" />
     <None Include="Resources\main6.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

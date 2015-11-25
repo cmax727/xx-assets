@@ -11,8 +11,6 @@ E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\x86\Release\R
 E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\x86\Release\FiddleMonitor.exe
 E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\x86\Release\FiddleMonitor.pdb
 D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\bin\x86\Release\FiddleMonitor.exe.config
-D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Release\FiddleMonitor.exe
-D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Release\FiddleMonitor.pdb
 D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\bin\x86\Release\FiddleMonitor.exe
 D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\bin\x86\Release\FiddleMonitor.pdb
 D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\bin\x86\Release\saf_kmlib.dll
@@ -22,3 +20,5 @@ D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Release\FiddleMonitor.Macro
 D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Release\FiddleMonitor.Properties.Resources.resources
 D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Release\ResGen.read.1.tlog
 D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Release\ResGen.write.1.tlog
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Release\FiddleMonitor.exe
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\x86\Release\FiddleMonitor.pdb

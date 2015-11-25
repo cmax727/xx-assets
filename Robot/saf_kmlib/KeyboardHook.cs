@@ -80,8 +80,10 @@ namespace saf_kmlib
                         (alt ? (int)Keys.Alt : 0)
                         ));
 
+                // keys from thisApp will send 8080 sign
+                // so if it's a real key then there shoud be no 8080 sign
                 if (keyboardHookStruct.dwExtraInfo != 8080)
-                {
+                {// if real key from user input, then pause keyflow
                     KeyUp(8080, e); // pause sign
                 }
 

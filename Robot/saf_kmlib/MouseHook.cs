@@ -74,7 +74,7 @@ namespace saf_kmlib
                     mouseHookStruct.pt.y,
                     (eventType == MouseEventType.MouseWheel ? (short)((mouseHookStruct.mouseData >> 16) & 0xffff) : 0));
 
-                if (mouseHookStruct.dwExtraInfo != 8080) // event from ROBOT
+                if (mouseHookStruct.dwExtraInfo != 8080) // event not from ROBOT
                 {
                     MouseMove(8080, e); // pause sign
                 }

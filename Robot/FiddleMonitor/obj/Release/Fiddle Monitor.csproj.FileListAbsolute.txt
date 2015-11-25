@@ -9,3 +9,15 @@ E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\Release\Fiddl
 E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\Release\FiddleMonitor.exe
 E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\Release\FiddleMonitor.pdb
 E:\backup\Development Env\Tools-Util\Robot\Robot\FiddleMonitor\obj\Release\Fiddle Monitor.csproj.GenerateResource.Cache
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\bin\Release\FiddleMonitor.exe.config
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\bin\Release\FiddleMonitor.exe
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\bin\Release\FiddleMonitor.pdb
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\bin\Release\saf_kmlib.dll
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\bin\Release\saf_kmlib.pdb
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\Release\ResolveAssemblyReference.cache
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\Release\FiddleMonitor.MacroForm.resources
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\Release\FiddleMonitor.Properties.Resources.resources
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\Release\ResGen.read.1.tlog
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\Release\ResGen.write.1.tlog
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\Release\FiddleMonitor.exe
+D:\WWWWW-WORK\xx-assets3\Robot\FiddleMonitor\obj\Release\FiddleMonitor.pdb

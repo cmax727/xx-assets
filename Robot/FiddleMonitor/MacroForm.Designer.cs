@@ -37,6 +37,7 @@
             this.chkMousePos = new System.Windows.Forms.CheckBox();
             this.txtWincount = new System.Windows.Forms.NumericUpDown();
             this.txtMmax = new System.Windows.Forms.NumericUpDown();
+            this.picCursor = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtMmin = new System.Windows.Forms.NumericUpDown();
             this.txtKmax = new System.Windows.Forms.NumericUpDown();
@@ -44,15 +45,17 @@
             this.label5 = new System.Windows.Forms.Label();
             this.chkKbd = new System.Windows.Forms.RadioButton();
             this.chkMouse = new System.Windows.Forms.RadioButton();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label7 = new System.Windows.Forms.Label();
             this.lblTimeLeft = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.statusChecker = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picStatus = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
@@ -61,10 +64,11 @@
             this.grpBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtWincount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtMmax)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCursor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtMmin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtKmax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtKmin)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picStatus)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -121,6 +125,7 @@
             this.grpBox1.Controls.Add(this.chkMousePos);
             this.grpBox1.Controls.Add(this.txtWincount);
             this.grpBox1.Controls.Add(this.txtMmax);
+            this.grpBox1.Controls.Add(this.picCursor);
             this.grpBox1.Controls.Add(this.label1);
             this.grpBox1.Controls.Add(this.txtMmin);
             this.grpBox1.Controls.Add(this.txtKmax);
@@ -128,6 +133,8 @@
             this.grpBox1.Controls.Add(this.label5);
             this.grpBox1.Controls.Add(this.chkKbd);
             this.grpBox1.Controls.Add(this.chkMouse);
+            this.grpBox1.Controls.Add(this.label8);
+            this.grpBox1.Controls.Add(this.label2);
             this.grpBox1.Controls.Add(this.label4);
             this.grpBox1.Controls.Add(this.label3);
             this.grpBox1.ForeColor = System.Drawing.Color.White;
@@ -143,16 +150,17 @@
             this.chkMousePos.AutoSize = true;
             this.chkMousePos.Checked = true;
             this.chkMousePos.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkMousePos.Location = new System.Drawing.Point(295, 24);
+            this.chkMousePos.Location = new System.Drawing.Point(221, 22);
             this.chkMousePos.Name = "chkMousePos";
-            this.chkMousePos.Size = new System.Drawing.Size(54, 21);
+            this.chkMousePos.Size = new System.Drawing.Size(118, 21);
             this.chkMousePos.TabIndex = 21;
-            this.chkMousePos.Text = "A.M";
+            this.chkMousePos.Text = "Mouse Center";
             this.chkMousePos.UseVisualStyleBackColor = true;
+            this.chkMousePos.CheckedChanged += new System.EventHandler(this.chkMousePos_CheckedChanged);
             // 
             // txtWincount
             // 
-            this.txtWincount.Location = new System.Drawing.Point(165, 21);
+            this.txtWincount.Location = new System.Drawing.Point(118, 21);
             this.txtWincount.Maximum = new decimal(new int[] {
             200,
             0,
@@ -164,7 +172,7 @@
             // 
             // txtMmax
             // 
-            this.txtMmax.Location = new System.Drawing.Point(278, 124);
+            this.txtMmax.Location = new System.Drawing.Point(352, 124);
             this.txtMmax.Maximum = new decimal(new int[] {
             200,
             0,
@@ -178,6 +186,19 @@
             0,
             0,
             0});
+            // 
+            // picCursor
+            // 
+            this.picCursor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.picCursor.BackColor = System.Drawing.Color.Transparent;
+            this.picCursor.Location = new System.Drawing.Point(349, 15);
+            this.picCursor.Name = "picCursor";
+            this.picCursor.Size = new System.Drawing.Size(55, 36);
+            this.picCursor.TabIndex = 16;
+            this.picCursor.TabStop = false;
+            this.picCursor.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picCursor_MouseDown);
+            this.picCursor.MouseMove += new System.Windows.Forms.MouseEventHandler(this.picCursor_MouseMove);
+            this.picCursor.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picCursor_MouseUp);
             // 
             // label1
             // 
@@ -193,7 +214,7 @@
             // 
             // txtMmin
             // 
-            this.txtMmin.Location = new System.Drawing.Point(201, 124);
+            this.txtMmin.Location = new System.Drawing.Point(275, 124);
             this.txtMmin.Maximum = new decimal(new int[] {
             200,
             0,
@@ -210,7 +231,7 @@
             // 
             // txtKmax
             // 
-            this.txtKmax.Location = new System.Drawing.Point(278, 93);
+            this.txtKmax.Location = new System.Drawing.Point(352, 93);
             this.txtKmax.Maximum = new decimal(new int[] {
             200,
             0,
@@ -227,7 +248,7 @@
             // 
             // txtKmin
             // 
-            this.txtKmin.Location = new System.Drawing.Point(201, 93);
+            this.txtKmin.Location = new System.Drawing.Point(275, 93);
             this.txtKmin.Maximum = new decimal(new int[] {
             200,
             0,
@@ -246,7 +267,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(68, 25);
+            this.label5.Location = new System.Drawing.Point(21, 25);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(68, 17);
@@ -258,7 +279,7 @@
             this.chkKbd.AutoSize = true;
             this.chkKbd.Checked = true;
             this.chkKbd.ForeColor = System.Drawing.Color.White;
-            this.chkKbd.Location = new System.Drawing.Point(54, 91);
+            this.chkKbd.Location = new System.Drawing.Point(17, 73);
             this.chkKbd.Name = "chkKbd";
             this.chkKbd.Size = new System.Drawing.Size(116, 21);
             this.chkKbd.TabIndex = 14;
@@ -271,7 +292,7 @@
             // 
             this.chkMouse.AutoSize = true;
             this.chkMouse.ForeColor = System.Drawing.Color.White;
-            this.chkMouse.Location = new System.Drawing.Point(54, 123);
+            this.chkMouse.Location = new System.Drawing.Point(17, 105);
             this.chkMouse.Name = "chkMouse";
             this.chkMouse.Size = new System.Drawing.Size(134, 21);
             this.chkMouse.TabIndex = 14;
@@ -279,23 +300,44 @@
             this.chkMouse.UseVisualStyleBackColor = true;
             this.chkMouse.CheckedChanged += new System.EventHandler(this.chkKbd_CheckedChanged);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(206, 124);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(61, 17);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "click/min";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(205, 97);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 17);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "keys/min";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(201, 65);
+            this.label4.Location = new System.Drawing.Point(275, 65);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(34, 17);
             this.label4.TabIndex = 8;
             this.label4.Text = "min ";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(278, 65);
+            this.label3.Location = new System.Drawing.Point(352, 65);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(33, 17);
@@ -348,19 +390,19 @@
             this.lblTimeLeft.TabIndex = 2;
             this.lblTimeLeft.Text = "0 : 0";
             // 
-            // button1
+            // btnExit
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button1.BackColor = System.Drawing.Color.Brown;
-            this.button1.ForeColor = System.Drawing.Color.DarkKhaki;
-            this.button1.Location = new System.Drawing.Point(312, 45);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 28);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "E&xit";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExit.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnExit.BackColor = System.Drawing.Color.Brown;
+            this.btnExit.ForeColor = System.Drawing.Color.DarkKhaki;
+            this.btnExit.Location = new System.Drawing.Point(312, 45);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(115, 28);
+            this.btnExit.TabIndex = 4;
+            this.btnExit.Text = "E&xit";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.button1_Click);
             // 
             // statusChecker
             // 
@@ -368,15 +410,15 @@
             this.statusChecker.Interval = 1000;
             this.statusChecker.Tick += new System.EventHandler(this.statusChecker_Tick);
             // 
-            // pictureBox1
+            // picStatus
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(372, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(55, 36);
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
+            this.picStatus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.picStatus.BackColor = System.Drawing.Color.Transparent;
+            this.picStatus.Location = new System.Drawing.Point(372, 3);
+            this.picStatus.Name = "picStatus";
+            this.picStatus.Size = new System.Drawing.Size(55, 36);
+            this.picStatus.TabIndex = 16;
+            this.picStatus.TabStop = false;
             // 
             // tableLayoutPanel1
             // 
@@ -405,9 +447,9 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.recordStartButton, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.button1, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.btnExit, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.playBackMacroButton, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox1, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.picStatus, 1, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 61);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -472,20 +514,22 @@
             this.MaximumSize = new System.Drawing.Size(458, 409);
             this.MinimumSize = new System.Drawing.Size(458, 190);
             this.Name = "MacroForm";
-            this.Text = "Fiddle Monitor ©SAF";
+            this.Text = "Fiddle Monitor v0.3 ©SAF";
             this.Activated += new System.EventHandler(this.MacroForm_Activated);
             this.Deactivate += new System.EventHandler(this.MacroForm_Deactivate);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MacroForm_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MacroForm_FormClosed);
             this.Load += new System.EventHandler(this.MacroForm_Load);
+            this.Resize += new System.EventHandler(this.MacroForm_Resize);
             this.grpBox1.ResumeLayout(false);
             this.grpBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtWincount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtMmax)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCursor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtMmin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtKmax)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtKmin)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picStatus)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
@@ -510,9 +554,9 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label lblTimeLeft;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Timer statusChecker;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picStatus;
         private System.Windows.Forms.NumericUpDown txtKmin;
         private System.Windows.Forms.NumericUpDown txtMmax;
         private System.Windows.Forms.NumericUpDown txtMmin;
@@ -525,6 +569,9 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.CheckBox chkMousePos;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox picCursor;
     }
 }
 
